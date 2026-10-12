@@ -1,17 +1,46 @@
-# my_app_hortunova
+# Лабораторная работа №6 — Flutter: Генератор советов
 
-A new Flutter project.
+Приложение показывает случайный совет по здоровью.
 
-## Getting Started
+## Автор
 
-This project is a starting point for a Flutter application.
+- **Фамилия, имя:** Хортюнова София
+- **Группа:** ИСП-241
+- **Дата сдачи:** 12.10.2026
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter 3.41.8
+- Dart 3.11.5
+- Платформа: Web (Edge)
+- IDE: VS Code
+ ---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ ## Скриншот приложения
+
+![Приложение](img/step6_Hortunova.png)
+
+---
+
+## Структура проекта
+
+- `lib/main.dart` — точка входа
+- `lib/gradient_container.dart` — фон с градиентом
+- `lib/advice_card.dart` — картинка с совета
+- `lib/advice_generator.dart` — случайно выбранный совета
+
+## Как запустить
+
+```bash
+git clone <ссылка_на_репозиторий>
+cd advice_app_hortunova 
+flutter pub get
+flutter run
+```
+
+## Что изучили
+
+1. Разбивку UI на отдельные виджеты в разных файлах.
+2. Передачу данных через параметры конструктора.
+3. Управление состоянием через
+4. Работу с `Random` 
